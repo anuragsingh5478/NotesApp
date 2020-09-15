@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "note deleted", Toast.LENGTH_SHORT).show();
             }
         }).attachToRecyclerView(recyclerView);
+
+
     }
 
 
